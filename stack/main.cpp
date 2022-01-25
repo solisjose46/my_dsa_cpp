@@ -34,3 +34,17 @@ int main(){
 
 	return 0;
 }
+
+
+public class Queen {
+	int x;
+	int y;
+
+	public:
+	Queen(int x, int y) : x(x), y(y) {}
+	int getX() const;
+	int getY() const;
+	void setX(int);
+	void setY(int);
+	~Queen();
+}
